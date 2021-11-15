@@ -137,6 +137,7 @@ e.innerHTML=`<link href="{{env('API_DOMAIN')}}/cdn/v1/chatv2/css/style_frontend.
 <div id="neiros__messenger_start" class="neiros__start_btn_messenger neiros__fadeIn rotate-reverse-btn" style="z-index: 999; display:none;">
 
 </div>
+
 <div id="neiros__btn_block" >
 
 
@@ -144,30 +145,28 @@ e.innerHTML=`<link href="{{env('API_DOMAIN')}}/cdn/v1/chatv2/css/style_frontend.
         <div class="neiros__text_block">Перезвоним за {{$widget->callback_timer}} {{num2word($widget->callback_timer, array('секунду', 'секунды', 'секунд'))}}</div>
 
 
-        <script>alert("jdskjncjmn")</script>
-
-        @if($widget->active_chat==1)<div id="neiros__chat_btn" class="neiros__btn_round neiros__fadeIn">
+        @if($widget->active_chat==1)<div id="neiros__chat_btn" class="neiros__btn_round neiros__fadeIn count__btn">
             <div class="neiros__toltip neiros__fadeIn">Написать в чат</div>
             <img src="{{env('API_DOMAIN')}}/cdn/v1/chatv2/images/svg/chat_white.svg" alt="">
         </div>@endif
 
-        @if($widget_callbaack->status==1) <div id="neiros__phone_btn" class="neiros__btn_round neiros__fadeIn" style="background:orange">
+        @if($widget_callbaack->status==1) <div id="neiros__phone_btn" class="neiros__btn_round neiros__fadeIn count__btn" style="background:orange">
             <div class="neiros__toltip neiros__fadeIn" >Обратный звонок</div>
             <img src="{{env('API_DOMAIN')}}/cdn/v1/chatv2/images/svg/telephone_white.svg" alt="">
         </div>@endif
 
-        @if($widget->active_formback==1)<div id="neiros__lid_btn" class="neiros__btn_round neiros__fadeIn">
+        @if($widget->active_formback==1)<div id="neiros__lid_btn" class="neiros__btn_round neiros__fadeIn count__btn">
             <div class="neiros__toltip neiros__fadeIn" >Оставить заявку</div>
             <img src="{{env('API_DOMAIN')}}/cdn/v1/chatv2/images/svg/note_white.svg" alt="">
         </div>@endif
 
-        @if($widget->active_map==1)<div id="neiros__geo_btn" class="neiros__btn_round neiros__fadeIn">
+        @if($widget->active_map==1)<div id="neiros__geo_btn" class="neiros__btn_round neiros__fadeIn count__btn">
             <div class="neiros__toltip neiros__fadeIn" >Наши<br>
                 адреса</div>
             <img src="{{env('API_DOMAIN')}}/cdn/v1/chatv2/images/svg/placeholder_white.svg" alt="">
         </div>@endif
 
-        @if($widget->active_social==1)<div id="neiros__socialpng_btn" class="neiros__btn_round neiros__fadeIn">
+        @if($widget->active_social==1)<div id="neiros__socialpng_btn" class="neiros__btn_round neiros__fadeIn count__btn">
             <div class="neiros__toltip neiros__fadeIn" >Ответим в соц сетях</div>
             <img src="{{env('API_DOMAIN')}}/cdn/v1/chatv2/images/svg/share_white.svg" alt="">
         </div>@endif
@@ -214,6 +213,12 @@ current_url_page = window.location.href;
 <?  if($ARRAY_CHAT != 'error chat off'){ ?>
 var ARRAU_CHAT = <?=$ARRAY_CHAT?>;
 var OPERATOR_ID = '<?=$OPERATOR_ID?>';
+
+var mainBtnDiv = document.querySelector('neiros__out_block');
+var countX = neiros__out_block.querySelectorAll('count__btn');
+
+console.log(countX);
+
 if(OPERATOR_ID != ''){
  createCookie('neiros_operator_id',OPERATOR_ID,1);
 
@@ -1174,7 +1179,9 @@ list.innerHTML = '<div class="neiros__closet-icon-modal"><img  src="images/icons
 }
 document.addEventListener("DOMContentLoaded", ready);
 
-
+console.log("=============================================================");
+console.log("=============================================================");
+console.log("=============================================================");
 
 {{--if(CBU_GLOBAL.config.widget.tip_timer_12>0){
 if (get_cookie("olev_time_track_show") == null) {
