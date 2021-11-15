@@ -1,0 +1,130 @@
+<html>
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+
+
+</head>
+<body>
+<div class="container">
+    <div class="page-header">
+        <h1>Определение размера выборки</h1>
+    </div>
+    <blockquote><b>Вопрос:</b> сколько необходимо уникальных посетителей, чтобы провести A/B тест?</blockquote>
+    <div class="row" style="margin-top: 50px;">
+        <div class="col-lg-4 col-md-3 col-sm-2 col-xs-0"></div>
+        <div class="col-lg-4 col-md-6 col-sm-8 col-xs-12">
+            <form class="form-horizontal">
+                <div class="form-group form-group-lg">
+                    <label for="baseline-conversion" class="col-sm-8 col-md-8 control-label">Базовая конверсия сайта</label>
+                    <div class="input-group col-sm-4 col-md-4">
+                        <input type="text" class="form-control" id="baseline-conversion" value="">
+                        <span class="input-group-addon">%</span>
+                    </div>
+                </div>
+                <div class="form-group form-group-lg">
+                    <label for="minimal-detectable-effect" class="col-sm-8 control-label">Минимальный видимый эффект</label>
+                    <div class="input-group col-sm-4">
+                        <input type="text" class="form-control" id="minimal-detectable-effect" value="">
+                        <span class="input-group-addon">%</span>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="col-lg-4 col-md-3 col-sm-2 col-xs-0"></div>
+    </div>
+    <div class="row" id="result-container">
+        <div class="col-md-12 text-center">
+            <h2>Ответ: <span class="label label-success" id="result"></span></h2>
+            <p>уникальных посетителей в каждую ветку</p>
+        </div>
+    </div>
+    <div class="row" style="margin-top: 50px;">
+        <div class="col-md-12 text-muted">
+            <p><small>* <b>Базовая конверсия сайта</b> - текущая конверсия сайта (до теста)</small></p>
+            <p><small>** <b>Минимальный видимый эффект</b> - минимальная относительная разница в конверсии, которую можно будет определить с помощью теста</small></p>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    $(function() {
+        var alpha = 0.05;
+        var beta = 0.80;
+        var min_effect = 0.10;
+        var conversion_rate = 0.015;
+
+        function getSampleSize() {
+            var p = conversion_rate > 0.50 ? (1.0 - conversion_rate) : conversion_rate;
+            var delta = conversion_rate * min_effect;
+            var t_alpha2 = ppnd(1.0-alpha/2);
+            var t_beta = ppnd(beta);
+
+            var sd1 = Math.sqrt(2 * p * (1.0 - p));
+            var sd2 = Math.sqrt(p * (1.0 - p) + (p + delta) * (1.0 - p - delta));
+
+            return Math.round((t_alpha2 * sd1 + t_beta * sd2) * (t_alpha2 * sd1 + t_beta * sd2) / (delta * delta));
+        }
+
+        function addSpaces(nStr) {
+            nStr += '';
+            var x = nStr.split('.');
+            var x1 = x[0];
+            var x2 = x.length > 1 ? '.' + x[1] : '';
+            var rgx = /(\d+)(\d{3})/;
+            while (rgx.test(x1)) {
+                x1 = x1.replace(rgx, '$1' + ' ' + '$2');
+            }
+            return x1 + x2;
+        }
+
+        function calculate() {
+            var sampleSize = getSampleSize();
+            if (jQuery.isNumeric(sampleSize)) {
+                $('#result').text(addSpaces(sampleSize));
+            } else {
+                $('#result').text('-');
+            }
+        }
+
+        $('#minimal-detectable-effect').val(min_effect * 100);
+        $('#baseline-conversion').val(conversion_rate * 100);
+        calculate();
+
+        $('#baseline-conversion, #minimal-detectable-effect').keyup(function() {
+            min_effect = $('#minimal-detectable-effect').val() / 100;
+            conversion_rate = $('#baseline-conversion').val() / 100;
+            calculate();
+        });
+    });
+
+
+    function ppnd(p){var a0=2.50662823884;var a1=-18.61500062529;var a2=41.39119773534;var a3=-25.44106049637;var b1=-8.47351093090;var b2=23.08336743743;var b3=-21.06224101826;var b4=3.13082909833;var c0=-2.78718931138;var c1=-2.29796479134;var c2=4.85014127135;var c3=2.32121276858;var d1=3.54388924762;var d2=1.63706781897;var r;var split=0.42;var value;if(Math.abs(p-0.5)<=split)
+    {r=(p-0.5)*(p-0.5);value=(p-0.5)*(((a3*r
+        +a2)*r
+        +a1)*r
+        +a0)/((((b4*r
+        +b3)*r
+        +b2)*r
+        +b1)*r
+        +1.0);}
+    else if(0.0<p&&p<1.0){if(0.5<p){r=Math.sqrt(-Math.log(1.0-p));}else{r=Math.sqrt(-Math.log(p));}
+        value=(((c3*r
+            +c2)*r
+            +c1)*r
+            +c0)/((d2*r
+            +d1)*r
+            +1.0);if(p<0.5)
+        {value=-value;}}
+    else{value=NaN;}
+        return value;}
+</script>
+</body>
+</html>

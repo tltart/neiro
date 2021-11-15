@@ -1,0 +1,46 @@
+#ClientInfoModal.modal.fade:not(.in) .modal-dialog {
+    -webkit-transform: translate3d(25%, 0, 0);
+    transform: translate3d(25%, 0, 0);
+}
+.w-active-chat {
+    width: 560px;
+    box-shadow: 0 4px 20px 0 rgba(0,0,0,.1), 0 0 0 0px rgba(0,0,0,.05);
+    background-color: #fff;
+    white-space: nowrap;
+    border-radius: 15px;
+    text-align: center;
+    padding: 45px 20px 40px 20px;
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-top: 110px;
+}
+.w-active-chat img {
+    width: 80px;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 0px;
+    margin-bottom: 40px;
+}
+.w-active-chat span {
+    font-family: 'Roboto Medium';
+    font-size: 20px;
+    color: #333;
+    display: block;
+    margin-bottom: 20px;
+}
+.active-chat-btn {
+    margin-bottom: 5px;
+    font-family: 'Roboto Light';
+    font-size: 16px;
+    background: #00b9ee;
+    padding: 15px 35px;
+    text-align: center;
+    border: none;
+    margin: 0px;
+    margin-top: 0px;
+    margin-top: 35px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    color: #fff;
+}

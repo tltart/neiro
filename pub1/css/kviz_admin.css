@@ -1,0 +1,1466 @@
+
+
+
+.for-direct{
+    width: 50%;
+    float: left;
+    padding: 10px;
+}
+
+.for-direct .for-direct-d{
+    border: 2px solid #e7e7e7;
+    box-shadow: 0px 0px 17px 0px rgb(0 0 0 / 10%);
+    width: 100%;
+    float: left;
+    margin-top: 0px;
+    background: #fff;
+    font-family: 'Raleway Light';
+    color: #333333;
+    font-weight: bold;
+    text-align: left;
+    font-size: 14px;
+    /* line-height: 15px; */
+    cursor: pointer;
+    padding: 8px 10px 9px 10px;
+    border-radius: 3px;
+    position: relative;
+}
+.for-direct .for-direct-d:hover{
+    border: 2px solid #00BAF0;
+
+}
+.for-direct .for-direct-d .for-direct-d-text{
+    float: left;
+    width: 100%;     padding-right: 135px;
+}
+.for-direct .for-direct-d .for-direct-d-btn{
+    width: auto;
+    position: absolute;
+    float: left;
+    text-align: center;
+    font-weight: bold;
+    font-size: 13px;
+    border: 1px solid #f00026;
+    border-radius: 3px;
+    color: #f00026;
+    padding: 0px 8px;
+    right: 14px;
+}
+
+.for-direct .for-direct-d .for-direct-d-checkbox{
+    position: absolute;
+    right: 95px;
+}
+
+
+.for-direct .for-direct-d .for-direct-d-checkbox .switchery>small {
+    display: block !important;
+}
+
+.for-direct.for-direct-add .for-direct-d{
+    background: #00BAF0;
+    color: #fff;
+}
+
+.for-direct.for-direct-add .for-direct-d .for-direct-d-text{
+    text-transform: uppercase;}
+
+.for-direct.for-direct-add .for-direct-d .for-direct-d-btn-add{
+    width: auto;
+    position: absolute;
+    float: left;
+    text-align: center;
+    font-weight: bold;
+    font-size: 13px;
+    border: 1px solid #f00026;
+    border-radius: 3px;
+    color: #f00026;
+    padding: 0px 8px;
+    right: 14px;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    font-size: 27px;
+    padding: 0px 6px;
+    line-height: 0.8;
+    margin-top: -1px;
+    right: 8px;
+}
+
+/*Kviz*/
+ 
+ 
+ .all-design-input-block-bonus{
+	    width: 200px;
+		float:left;
+	}			
+.all-design-input-block-bonus .color-picker-bonus{
+	position: absolute;
+    width: 1px;
+    height: 1px;
+    margin-top: 7px;
+	}
+	
+	
+.all-design-input-block-bonus .color-picker-bonus input{
+    width: 100%;
+    height: 100%;
+    box-shadow: none;
+    border: none;
+    color: #fff;
+    opacity: 0;
+	}	
+	
+ 
+ 
+.disabled-buttom-bonus{
+	position: absolute;
+    top: -38px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 20px;
+    right: -1px;
+    /* background: #fff; */
+    background: #AEB5BF;
+    color: #fff;
+    width: 20px;
+    height: 20px;
+    border-radius: 30px;
+    cursor: pointer;
+	} 
+.footer-bonus-copiright{
+	
+	color: #999999;
+    left: 0;
+    /* line-height: 1; */
+    font-size: 13px;
+    font-family: 'Raleway Medium';}
+ .color-picker{
+	     position: absolute;
+    width: 1px;
+    height: 1px;
+    margin-top: 7px;
+	 }
+  .color-picker input{ width: 100%;
+    height: 100%;
+    box-shadow: none;
+    border: none;
+    color: #fff;
+    opacity: 0;}
+
+ .all-design-right-con .chose-icon5-design{
+	    list-style: none;
+    padding-left: 0px;
+    float: left;
+    margin-top: 10px;
+    margin-left: -5px; }
+ .all-design-right-con .chose-icon5-design li{
+	 width: 38px;
+    height: 38px;
+    float: left;
+    text-align: center;
+    position: relative;
+    line-height: 33px;
+    cursor: pointer;
+	 }
+.all-design-right-con .chose-icon5-design li span{display: block;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #fff0;}
+.all-design-right-con .chose-icon5-design li span img{    max-width: 20px;
+    filter: invert(89%) sepia(6%) saturate(0%) hue-rotate(153deg) brightness(83%) contrast(82%);}
+.all-design-right-con .chose-icon5-design li.active span{
+	    border: 1px solid #00B9EE;
+    border-radius: 3px;
+    background: #fff;
+    box-shadow: 0px 2px 3px 0px rgb(50 50 50 / 23%);
+	}
+
+.all-design-right-con .chose-icon5-design li.active span img, .all-design-right-con .chose-icon5-design li:hover span img{filter: invert(69%) sepia(45%) saturate(4157%) hue-rotate(151deg) brightness(90%) contrast(110%);}
+.all-design-right-con .chose-icon5-design li.active span:before{
+	    content: '';
+    background: url(/global_assets/images/icon_kviz/dop-uderganie/chack.svg) center center;
+    height: 12px;
+    width: 12px;
+    position: absolute;
+    right: -4px;
+    top: -3px;
+	}
+
+     .descr-text-all{    font-family: 'Raleway Medium';
+    color: #999999;
+    font-size: 13px;
+    margin-bottom: -10px;}
+	.footer-kviz-block-type-image{
+		display:none;
+		padding-left:0px;}
+		
+	.footer-kviz-block-type-image .file-block-img{
+		    float: left;
+    max-height: 73px;
+    overflow: hidden;
+    position: relative;
+    height: 73px;
+	min-width:73px;
+    margin-left: 16px;
+    background: #F5F6FA;
+    border: 1px solid #E4E4E4;
+    padding: 6px 6px;
+    border-radius: 3px;
+
+		}
+	.footer-kviz-block-type-image .file-block-img img{
+		height: 100%;
+		width: auto;
+		max-height: 100%;
+		float: left;
+		}		
+		
+	.footer-kviz-block-type-image .file-block{
+		float:left;
+		width: 120px;
+    height: 73px;
+    text-align: center;
+    background: #F5F6FA;
+    border: 1px dashed #CDCDCE;
+    padding: 10px;
+    cursor: pointer;
+	margin-bottom:15px;
+	border-radius:3px;
+		}
+	.footer-kviz-block-type-image .file-image-block{
+		    border: 1px solid #E4E4E4;
+    float: left;
+    width: 120px;
+    height: 73px;
+    margin-left: 15px;
+    border-radius: 3px;
+		}
+	.footer-kviz-block-type-image .file-block input{
+		    opacity: 0;
+    width: 0.1px;
+    height: 0.1px;
+    position: absolute;
+		}
+	.footer-kviz-block-type-image .file-block label{
+		    width: 100%;
+    cursor: pointer;
+
+		}
+	.footer-kviz-block-type-image .file-block label img{
+		    width: 30px;
+		}
+	.footer-kviz-block-type-image .file-block label div{
+		    line-height: 1;
+    margin-top: 5px;
+    font-size: 12px;
+		}
+
+	.footer-kviz-block-type .block-kviz-f-3 {
+		display:none;
+    width: 187px;
+}
+	.footer-kviz-block-type .block-kviz-f-4 {
+    width: 187px; display:none;
+}
+	.footer-kviz-block-type .block-kviz-f-2 {
+    width: 187px;
+}
+	.footer-kviz-block-type .block-kviz-f-0 {
+    width: 220px; display:none;
+}
+
+
+.kviz-input-block.kviz-input-block-vopros-number{
+	    padding-left: 0px;
+    width: 50%;
+	}
+.kviz-input-block.kviz-input-block-vopros-number-left{
+	   padding-right: 0px;
+    width: 50%;
+	}
+.kviz-input-block.kviz-input-block-vopros-down{	    padding-left: 0px;
+    width: 50%;
+	margin-top:10px;
+	}
+.select-panel-blok-file{
+	    float: none;
+    padding-left: 0px;
+    margin-top: 20px;
+	}
+.select-panel-blok-file .select-panel-blok-input .dropdown-menu>li>label{
+	    padding-left: 17px;
+	}
+.select-panel-blok-file .select-panel-blok-input .dropdown-menu>li.active>label{
+	background:none;    color: #1EBEEF;
+	}
+
+.panel-otobragenie.panel-otobragenie-kviz-dop .panel-header .block-header-2{
+	    width: 86%;padding-left: 0px;
+	}
+.panel-otobragenie.panel-otobragenie-kviz-dop .panel-header .block-header-3{
+	    border-right: none;
+	}
+.panel-otobragenie.panel-otobragenie-kviz-dop .panel-header .block-header-1{
+	cursor: auto;
+	    border-right: none;
+    padding: 11px 12px;
+	}
+
+.panel-otobragenie.panel-otobragenie-kviz-dop .panel-header .block-header-1 img{
+	    width: 19px;
+		display:block;
+	}
+.panel-otobragenie.panel-otobragenie-kviz-dop .panel-header .block-header-1 img.active{
+	display:none;}
+
+.panel-otobragenie.panel-otobragenie-kviz-dop .panel-header .block-header-1.active img{
+	display:none;
+	}
+.panel-otobragenie.panel-otobragenie-kviz-dop .panel-header .block-header-1.active img.active{
+	display:block;}
+
+.panel-otobragenie.panel-otobragenie-kviz-dop .panel-header .block-header .text__header{
+	    padding-left: 0px;
+	}
+
+.button-top-all-cont{
+    margin-top: 15px;
+    width: 340px;     float: left;
+	}
+.button-top-all{
+    float: left;
+    width: 145px;
+    height: 40px;
+    border: 1px solid #DFDFDF;
+    border-radius: 3px;
+    font-family: 'Raleway Regular';
+    color: #999999;
+    line-height: 38px;
+    text-align: center;
+    font-size: 15px;
+    margin-right: 10px;
+	position:relative;     padding-left: 20px;
+	cursor:pointer;
+	}
+.button-top-all.active{
+	border-color: #00B9EE;
+    color: #333333;
+	}
+.button-top-all.active:after{
+		content:'';
+	background: url('/global_assets/images/icon_kviz/dop-uderganie/chack.svg') center center;
+    height: 12px;
+    width: 12px;
+    position: absolute;
+left: 5px;
+    top: 4px;
+}
+
+
+.button-top-all.button-top-row:before{
+	content:'';
+	background: url('/global_assets/images/icon_kviz/dop-uderganie/up-row.svg') center center;
+    height: 10px;
+    width: 18px;
+    position: absolute;
+    left: 22px;
+    top: 15px;
+
+	}
+.button-top-all.button-down-row:before{
+		content:'';
+	background: url('/global_assets/images/icon_kviz/dop-uderganie/down-row.svg') center center;
+	height:10px;
+	width:18px;
+	position:absolute;
+    left: 20px;
+    top: 13px;
+	}
+.button-top-all-cont .kviz-input-block{    float: left;
+    margin-top: 15px;}
+.button-top-all-cont .kviz-input-block-button-top input{    width: 290px;
+    float: left;
+    border-radius: 3px 0px 0px 3px;    margin-bottom: 0;
+	    color: #333333;
+    font-family: 'Roboto';
+    font-style: normal;
+	}
+
+	.button-top-all-cont .curency-input{
+		    float: left;
+    width: 50px;
+    height: 39px;
+    background: #FBFBFD;
+    border: 1px solid #E6E6E6;
+    line-height: 34px;
+    text-align: center;
+    font-family: 'Raleway Regular';
+    font-size: 15px;
+    border-radius: 0px 3px 3px 0px;
+    border-left: none;
+		}
+.button-top-all-cont-right{
+	float: right;
+    margin-top: 15px;
+	height: 150px;}
+.button-top-all-cont-right .skidka-btn{
+	    width: 260px;
+    height: 95px;
+    background: #F5F6FA;
+    padding: 25px 14px;
+    border-radius: 15px;
+	}
+
+.button-top-all-cont-right .skidka-btn .skidka-btn-left{
+	width: 105px;
+    height: 47px;
+    float: left;
+}
+
+.button-top-all-cont-right .skidka-btn .skidka-btn-left .skidka-text-top{
+	font-family: 'Raleway Light';
+
+	}
+.button-top-all-cont-right .skidka-btn .skidka-btn-left .skidka-price-top{    font-family: 'Roboto Bold';
+    font-size: 24px;
+    line-height: 1;
+    margin-top: 3px;}
+.button-top-all-cont-right .skidka-btn .skidka-btn-right{
+	width: 107px;
+    float: right;
+	}
+.button-top-all-cont-right .skidka-btn .skidka-btn-right .skidka-img-top{
+	height: 23px;
+    width: 40px;
+	}
+
+.button-top-all-cont-right .skidka-btn .skidka-btn-right .skidka-img-top img{
+	    width: 100%;
+	}
+
+	.button-top-all-cont-right .skidka-btn .skidka-btn-right .skidka-price-down{
+		    font-family: 'Roboto Light';
+    font-size: 12px;
+    margin-top: 6px;
+		}
+	.select-bonus-type .btn.btn-success img{
+		    margin-right: 5px;    width: 19px;
+		}
+	.select-bonus-type .btn.btn-success img.select{
+	   width: 16px;
+    margin-top: -2px}
+
+
+
+.select-bonus-type li label:before {
+content: '';
+    width: 15px;
+    height: 20px;
+    position: absolute;
+    left: 17px;
+    margin-top: 2px;
+}
+.select-bonus-type li .checkmark {
+    display: none;
+}
+.select-bonus-type li[data-img="1"] label:before {
+    background: url(/global_assets/images/icon_kviz/dop-uderganie/catalog.svg) center center no-repeat;
+}
+
+.select-bonus-type  li[data-img="1"].active label:before {
+    background: url(/global_assets/images/icon_kviz/dop-uderganie/catalog-hover.svg) center center no-repeat;
+}
+.select-bonus-type li[data-img="1"] label:hover:before {
+    background: url(/global_assets/images/icon_kviz/dop-uderganie/catalog-hover.svg) center center no-repeat;
+}
+.select-bonus-type  li[data-img="1"].active label:hover:before {
+    background: url(/global_assets/images/icon_kviz/dop-uderganie/catalog-hover.svg) center center no-repeat;
+}
+
+.select-bonus-type li[data-img="2"] label:before {
+    background: url(/global_assets/images/icon_kviz/dop-uderganie/cupon.svg) center center no-repeat;
+}
+
+.select-bonus-type  li[data-img="2"].active label:before {
+    background: url(/global_assets/images/icon_kviz/dop-uderganie/cupon-hover.svg) center center no-repeat;
+}
+.select-bonus-type  li[data-img="2"] label:hover:before {
+    background: url(/global_assets/images/icon_kviz/dop-uderganie/cupon-hover.svg) center center no-repeat;
+}
+.select-bonus-type  li[data-img="2"].active label:hover:before {
+    background: url(/global_assets/images/icon_kviz/dop-uderganie/cupon-hover.svg) center center no-repeat;
+}
+
+.select-bonus-type li[data-img="3"] label:before {
+    background: url(/global_assets/images/icon_kviz/dop-uderganie/price.svg) center center no-repeat;
+}
+
+.select-bonus-type  li[data-img="3"].active label:before {
+    background: url(/global_assets/images/icon_kviz/dop-uderganie/price-hover.svg) center center no-repeat;
+}
+.select-bonus-type  li[data-img="3"] label:hover:before {
+    background: url(/global_assets/images/icon_kviz/dop-uderganie/price-hover.svg) center center no-repeat;
+}
+.select-bonus-type  li[data-img="3"].active label:hover:before {
+    background: url(/global_assets/images/icon_kviz/dop-uderganie/price-hover.svg) center center no-repeat;
+}
+
+
+.select-bonus-type li[data-img="4"] label:before {
+    background: url(/global_assets/images/icon_kviz/dop-uderganie/svoi.svg) center center no-repeat;
+}
+
+.select-bonus-type  li[data-img="4"].active label:before {
+    background: url(/global_assets/images/icon_kviz/dop-uderganie/svoi-hover.svg) center center no-repeat;
+}
+.select-bonus-type  li[data-img="4"] label:hover:before {
+    background: url(/global_assets/images/icon_kviz/dop-uderganie/svoi-hover.svg) center center no-repeat;
+}
+.select-bonus-type  li[data-img="4"].active label:hover:before {
+    background: url(/global_assets/images/icon_kviz/dop-uderganie/svoi-hover.svg) center center no-repeat;
+}
+
+.add-number-new.select-bonus-type .dropdown-menu>li>label{
+	    padding-left: 45px;
+	    position: relative;
+	}
+
+.add-user-new.select-bonus-type .btn-success b{
+	font-weight:normal;}
+
+.add-number-new.select-bonus-type .dropdown-menu>li {
+    float: left;
+    width: 100%;
+}
+
+.add-number-new.select-bonus-type .dropdown-menu>li.active>label{
+	background:none !important;
+
+	}
+
+.pravilo-block-bonus{
+	    width: 300px;
+	}
+
+.right-block-bonus{
+	    width: 300px;
+    float: right;
+    background: #F8F8F9;
+    height: 295px;
+    margin-top: -18px;
+    margin-right: -19px;
+    text-align: center;
+
+	}
+.right-block-bonus .text-empty-bonus{
+	    width: 100%;
+    font-family: 'Raleway Medium';
+    line-height: 1.5;
+    margin-top: 130px;
+	}
+.checkbox-bonus{
+	padding:0px;
+
+	}
+.start-page-kviz .checkbox-bonus .add-number-new-checkbox{
+	    margin-bottom: 0px;
+	    margin-top: 2px;
+	}
+.kviz-input-block-bonus{
+    float: left;
+    margin-top: 15px;
+	}
+.kviz-input-block-bonus label{
+	width:100% !important;}
+.kviz-input-block-bonus input{
+	font-style: normal !important;
+	}
+.descr-text-all-bonus{
+	     float: left;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+	}
+.block-color-bonus, .block-color-bonus-text{    float: left;
+    width: 100%;
+    padding-left: 0px;
+    list-style: none;}
+.block-color-bonus li, .block-color-bonus-text li{
+	    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 10px;
+    cursor: pointer;
+	margin-bottom:10px;
+	border:1px solid}
+	
+	
+	
+	.block-color-bonus li.active, .block-color-bonus-text li.active{
+	box-shadow: inset 0px 0px 0px 2px rgb(255 255 255);}
+.block-color-bonus-text li[data-color="#fff"].active{
+	    border-color: #000000 !important;     box-shadow: inset 0px 0px 0px 2px rgb(0 0 0);
+	}
+	.design-block-label{
+    height: 109px;
+    width: 280px;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    background: linear-gradient(172deg, #001C60 36%, #000000 199%);
+    position: relative;
+		}
+	.design-block-label .design-block-left{
+		    float: left;
+    position: relative;
+    height: 100%;
+		}
+	.design-block-label .design-block-left .design-tupe-duwn{
+		    width: 95px;
+    margin-left: 15px;
+    margin-top: 7px;
+		}
+	.design-block-label .design-block-left .design-tupe-duwn img{
+		width:100%;
+		}
+	.design-block-label .design-block-left .design-tupe-top{
+		    position: absolute;
+    top: 21%;
+    left: 50%;
+    margin-top: -11px;
+    margin-left: -32px;
+		}
+		.design-block-label .design-block-left .design-tupe-top img{
+			    width: 70px;
+			}
+		.design-block-label .design-block-right-cont{
+    float: left;
+    width: 121px;
+    max-height: 80px;
+    max-width: 121px;
+    font-family: 'Roboto';
+    color: #fff;
+    text-align: left;
+    font-size: 14px;
+    line-height: 1.2;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 80px;
+    max-height: 80px;
+    overflow: hidden;
+    display: table;
+    overflow: hidden;
+			}	
+	.design-block-label .design-block-right{
+ display: table-cell;
+  vertical-align: middle;
+   max-height: 80px;
+    overflow: hidden;
+			}
+
+	.design-block-label .design-icon-check{
+		    position: absolute;
+    right: 10px;
+    top: 9px;
+		}
+	.pravilo-block-bonus-cont{
+		padding:0px;}
+	.pravilo-block-bonus-cont-2{
+		margin-top:-20px;}
+
+	.pravilo-block-bonus-cont-2 .text-h1-fo-select-panel-kviz{
+		    border-top: 1px solid #E6E6E6;
+    padding-top: 10px;
+		}
+
+.bonus-copiraght{
+	    position: absolute;
+    bottom: -25px;
+    width: 100%;
+    font-family: 'Raleway Medium';
+    color: #999999;
+    font-size: 13px;
+	}
+.pravilo-block-bonus-cont-2  .design-block-label{
+	    margin-top: 42px;
+	}
+
+	.pravilo-block-bonus-cont .file-block{
+		    position: absolute;    z-index: 2;
+			display:none;
+		}
+	.pravilo-block-bonus-cont .file-block.active{
+		display:block;}
+	.pravilo-block-bonus-cont .file-block input {
+    opacity: 0;
+    width: 0.1px;
+    height: 0.1px;
+    position: absolute;
+}
+.pravilo-block-bonus-cont .file-block label{
+	    width: 35px;
+    height: 40px;
+    margin-bottom: 0px;
+    left: 0px;
+    background: #fff;
+    border: 1px dashed #E6E6E6;
+    border-radius: 2px;
+    cursor: pointer;
+	}
+.pravilo-block-bonus-cont .file-block label img {
+     margin-top: 9px;
+    width: 26px;
+    margin-left: 5px;
+}
+
+	.pravilo-block-bonus-cont  .file-block label.active img, .pravilo-block-bonus-cont .file-block label:hover img {
+    filter: invert(36%) sepia(19%) saturate(3990%) hue-rotate(155deg) brightness(98%) contrast(101%);
+}
+.kviz-input-block-contact-left{
+     width: 47%;
+    float: left;
+    position: relative;}
+.kviz-input-block-contact-right{
+    width: 47%;
+    float: right;
+    position: relative;
+	}
+
+.switchery-xs-new-contact{
+	    position: absolute;
+    right: 1px;
+    top: 1px;
+    width: 64px;
+    text-align: center;
+    height: 37px;
+    background: #FBFBFD;
+    line-height: 34px;
+    border-left: 1px solid #E6E6E6;
+	}
+	.cont-btn-content-contact .text-h1-fo-select-panel-kviz{
+		    float: left;
+    width: 100%;
+		    margin-top: 15px;
+		}
+
+	.switchery-xs-new-contact .switchery{
+		width:40px;
+		height:20px;}
+
+	.switchery-xs-new-contact .switchery>small{    width: 20px;
+    height: 20px;}
+
+	.on-of-chatbot-block .switchery{
+		width:40px;
+		height:20px;}
+
+	.on-of-chatbot-block .switchery>small{    width: 20px;
+    height: 20px;}
+
+	.switchery-chatbot-block{
+		padding-left:14px}
+	.on-of-chatbot-block{
+		float: left;
+    width: 100%;
+    margin-top: 20px;
+    font-size: 16px;
+    font-family: 'Raleway Regular';
+	margin-bottom:25px;
+		}
+		
+		
+		
+		.on-of-iformation-company .switchery{
+		width:40px;
+		height:20px;}
+
+	.on-of-iformation-company .switchery>small{    width: 20px;
+    height: 20px;}
+
+	.switchery-iformation-company{
+		padding-left:14px}
+	.on-of-iformation-company{
+		float: left;
+    width: 100%;
+    margin-top: 20px;
+    font-size: 16px;
+    font-family: 'Raleway Regular';
+	margin-bottom:25px;
+		}	
+ .on-of-iformation-company-tab .text-h1-fo-select-panel-kviz{
+	    float: left;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 2px;
+	}
+ .on-of-iformation-company-tab{
+	margin-bottom: 20px;
+    float: left;
+    width: 100%;
+	}	
+  /*Kviz*/
+
+
+.all-design-down-con{
+	    float: left;
+    width: 100%;}
+
+.all-design-down-con .preview-button{
+	position:relative;
+	    float: left;
+    min-width: 241px;
+    background: #02245A;
+    border-radius: 30px 30px 0px 0px;
+    margin-left: 15px;
+    margin-top: 23px;
+    color: #fff;
+    font-size: 17px;
+    font-family: 'Roboto Light';
+    line-height: 61px;
+    height: 60px;
+    box-shadow: 0px 3px 6px 0px rgb(50 50 50 / 23%);
+	}
+	
+	.variant-all-design-floating .all-design-down-con .preview-button{
+		border-radius: 30px;
+		}
+	
+.all-design-down-con .preview-button span{    display: block;
+    float: left;
+    /* height: 60px; */
+    width: 74px;
+    text-align: center;
+    border-right: 1px solid #ffffff4f;
+    height: 35px;
+    margin-top: 13px;
+    padding-left: 10px;}
+
+.all-design-down-con .preview-button span img{
+	    margin-top: -34px;    width: 30px;
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(
+290deg
+) brightness(101%) contrast(101%);
+	}
+.all-design-down-con .preview-button span.black{
+	border-right: 1px solid #0f0f0f4f;
+	}	
+.all-design-down-con .preview-button span img.black{
+	filter: inherit;
+	}	
+.all-design-down-con .preview-button div{
+    float: left;
+    min-width: 166px;
+    padding-left: 15px;
+    padding-right: 27px;
+	}
+.all-design-down-con .preview-button b{
+    position: absolute;
+    bottom: -22px;
+    width: 100%;
+    text-align: center;
+    display: block;
+    color: #999999;
+    left: 0;
+    line-height: 1;
+    font-size: 13px;
+    font-family: 'Raleway Medium';
+    font-weight: normal;}
+.all-design-right-con{
+	    float: right;
+    width: 375px;
+    height: 144px;
+    background: #F8F8F9;
+    padding: 15px;
+	}
+
+.all-design-right-con .all-design-right-con-h1{
+font-family: 'Raleway Regular';
+}
+
+
+.variant-all-design-no-round{
+	    float: left;
+    width: 100%;
+    margin-top: 20px;
+	}
+.variant-all-design-no-round .text-h1-fo-select-panel-kviz{
+	margin-top: 0px;
+    float: left;
+    width: 100%;
+	}
+.variant-all-design-no-round  .kviz-input-block{
+    float: left;
+    margin-bottom: 15px;
+    margin-top: 15px;}
+
+
+	.all-design-left-con{
+		    width: 270px;
+    height: 144px;
+    border: 1px solid #AEB5BF;
+    position: relative;
+    float: left;
+		}
+
+.all-design-left-con .top-b{
+	width: 100%;
+    height: 17px;
+	}
+
+.all-design-left-con .left-b{
+	    width: 17px;
+    height: 126px;
+    float: left;
+    border-right: 1px solid #AEB5BF;
+    border-top: 1px solid #AEB5BF;
+    position: relative;
+
+	}
+.all-design-left-con .left-b .left-top{
+	    float: left;
+    width: 100%;
+    height: 62px;
+    border-bottom: 1px solid #AEB5BF;
+	}
+.all-design-left-con .left-b .left-down{
+	    float: left;
+    width: 100%;
+    height: 62px;
+	}
+
+.all-design-left-con .center-center{
+	    float: left;
+    border-bottom: 1px solid #AEB5BF;
+    border-top: 1px solid #AEB5BF;
+    width: 234px;
+    height: 110px;
+    text-align: center;
+    background: #F5F5F5;
+    font-family: 'Raleway Regular';
+    padding-top: 32px;
+	}
+.all-design-left-con .right-b{
+	    width: 17px;
+    height: 126px;
+    float: left;
+    border-left: 1px solid #AEB5BF;
+    border-top: 1px solid #AEB5BF;
+	}
+.all-design-left-con .right-b .right-top{
+	    float: left;
+    width: 100%;
+    height: 62px;
+    border-bottom: 1px solid #AEB5BF;
+	}
+
+.all-design-left-con .right-b .right-down{
+	float: left;
+    width: 100%;
+    height: 62px;
+
+	}
+.all-design-left-con .down-b{
+	    float: left;
+    width: 234px;
+    height: 17px;
+    margin-top: -17px;
+    margin-left: 17px;
+
+	}
+
+.all-design-left-con .down-b .down-left{
+	    float: left;
+    width: 78px;
+    border-right: 1px solid #AEB5BF;
+    height: 17px;
+	}
+
+.all-design-left-con .down-b .down-center{
+    float: left;
+    width: 78px;
+    border-right: 1px solid #AEB5BF;
+    height: 17px;
+	}
+	.all-design-left-con .down-b .down-right{
+	float: left;
+    width: 78px;
+    height: 17px;
+	}
+
+.all-design-left-con .select-position{
+	cursor:pointer;
+
+	}
+
+.all-design-left-con .select-position:hover, .all-design-left-con .select-position.active{
+	background:#00B9EE;
+
+	}
+.variant-all-design-floating .all-design-left-con .left-b, .variant-all-design-floating .all-design-left-con .left-b div, .variant-all-design-floating .all-design-left-con .right-b, .variant-all-design-floating .all-design-left-con .right-b div {
+    border-top: none;
+    border-bottom: none;
+    pointer-events: none;
+	
+	}
+
+.variant-all-design-round{
+		float:left;
+		width:100%;
+
+		margin-top:30px;
+	}
+.variant-all-design-round .kviz-input-block{
+	float:left;
+	    margin-bottom: 10px;
+	}
+
+.variant-all-design-round .kviz-input-block label{margin-bottom: 2px;	}
+
+
+
+.all-design-block-select-button-cont{
+	    width: 100%;
+    float: left;
+    margin-top: 30px;
+	}
+
+.all-design-block-select-button-cont .all-design-block-select-button{
+    width: 190px;
+    height: 150px;
+    float: left;
+    border: 1px solid #DFDFDF;
+    margin-right: 15px;
+    border-radius: 5px;
+    text-align: center;
+	cursor:pointer;    position: relative;
+}
+.all-design-block-select-button-cont .all-design-block-select-button .btn-select-item{
+	width: 80px;
+    height: 35px;
+    margin: 0 auto;
+    background: #AEB5BF;
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Raleway Regular';
+    line-height: 35px;
+    margin-top: 34px;
+    border-radius: 20px;
+       margin-bottom: 18px;
+	}
+.all-design-block-select-button-cont .all-design-block-select-button.no-round .btn-select-item{
+	border-radius: 10px 10px 0px 0px;
+	}
+.all-design-block-select-button-cont .all-design-block-select-button .btn-select-item-text{
+	    font-family: 'Raleway Regular';
+    line-height: 1.2;     font-size: 15px;
+	}
+.all-design-block-select-button-cont .all-design-block-select-button .disabled-buttom{
+	    position: absolute;
+    right: 3px;
+    top: 3px;
+    background: #AEB5BF;
+    color: #fff;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    z-index: 2;
+    border-radius: 20px;
+    cursor: pointer;
+	display:none;
+		visibility: hidden;
+	opacity:0;
+	}
+	
+	
+	
+.all-design-block-select-button-cont .all-design-block-select-button.active, .all-design-block-select-button-cont .all-design-block-select-button:hover{
+	border-color:#00B9EE;
+	box-shadow: 0px 3px 6px 0px rgb(50 50 50 / 23%);
+	}
+.all-design-block-select-button-cont .all-design-block-select-button.active .btn-select-item, .all-design-block-select-button-cont .all-design-block-select-button:hover .btn-select-item{
+	    background: #00B9EE;
+	}
+	
+	
+.all-design-block-select-button-cont .all-design-block-select-button.active:hover .disabled-buttom{
+	visibility:visible;
+	opacity:1;
+	display: block;
+	
+	
+	}	
+
+.all-design-block-select-button-cont .all-design-block-select-button.active:after {
+    content: '';
+    background: url(/global_assets/images/icon_kviz/dop-uderganie/chack.svg) center center;
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    right: 6px;
+    top: 6px;
+}
+
+
+
+.all-design-input-block{
+	float:left; width:200px;
+	}
+.cont-btn-content-contact{
+	    padding-top: 0px;
+    padding-bottom: 20px;
+	}
+.cont-btn-content-contact .block-header.block-header-2{
+    width: 100% !important;
+    border-right: 0px !important;
+    padding-left: 20px !important;
+	}
+.cont-btn-content-contact  .panel-otobragenie{
+	margin-bottom:25px;
+
+	}
+
+.cont-btn-content-contact .on-of-chatbot-block-tab .text-h1-fo-select-panel-kviz{
+	    float: left;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 2px;
+	}
+.on-of-chatbot-block-tab{
+	margin-bottom: 20px;
+    float: left;
+    width: 100%;
+	}
+.block-icon-messeger{
+	    float: left;
+    width: 100%;
+	}
+.block-messeger-li{    margin-top: 2px;
+    float: left;
+    width: 100%;}
+.block-messeger-li div{
+	width:25px;
+	height:25px;
+	float:left;
+	margin-right:10px;
+	cursor:pointer;
+	}
+.block-messeger-li div.fb-messeger{
+	background: url(/global_assets/images/icon_kviz/dop-uderganie/messeger/fb.svg) center center;
+	}
+.block-messeger-li div.fb-messeger:hover, .block-messeger-li div.fb-messeger.active{
+	background: url(/global_assets/images/icon_kviz/dop-uderganie/messeger/fb-hover.svg) center center;
+	}
+
+.block-messeger-li div.telegram-messeger{
+	background: url(/global_assets/images/icon_kviz/dop-uderganie/messeger/telegram.svg) center center;
+	}
+.block-messeger-li div.telegram-messeger:hover, .block-messeger-li div.telegram-messeger.active{
+	background: url(/global_assets/images/icon_kviz/dop-uderganie/messeger/telegram-hover.svg) center center;
+	}
+
+.block-messeger-li div.vk-messeger{
+	background: url(/global_assets/images/icon_kviz/dop-uderganie/messeger/vk.svg) center center;
+	}
+.block-messeger-li div.vk-messeger:hover, .block-messeger-li div.vk-messeger.active{
+	background: url(/global_assets/images/icon_kviz/dop-uderganie/messeger/vk-hover.svg) center center;
+	}
+
+
+.block-messeger-li div.viber-messeger{
+	background: url(/global_assets/images/icon_kviz/dop-uderganie/messeger/viber.svg) center center;
+	}
+.block-messeger-li div.viber-messeger:hover, .block-messeger-li div.viber-messeger.active{
+	background: url(/global_assets/images/icon_kviz/dop-uderganie/messeger/viber-hover.svg) center center;
+	}
+
+	.block-color-all-design{
+    float: left;
+    width: 100%;
+    padding-left: 0px;
+    list-style: none;
+		}
+
+	.block-color-all-design li {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border: 1px solid;
+}
+.block-color-all-design li.active {
+    box-shadow: inset 0px 0px 0px 2px rgb(255 255 255);
+}
+.all-design-block .all-design-block-top-left{
+	float: left;
+    width: 300px;
+	}
+.all-design-block  .all-design-block-h1{
+	    font-family: 'Raleway Medium';
+    font-size: 15px;
+    margin-bottom: 10px;
+	}
+
+.all-design-block .all-design-block-top-right{
+	    float: right;
+    width: 280px;
+	}
+
+.all-design-block .select-color-all-design{
+	    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    margin-top: 13px;
+	}
+	
+	
+	
+.cont-form{
+	    position: relative;
+    margin-bottom: 0px;
+    margin-top: 53px;
+    padding-left: 10px;
+    padding-right: 10px;}
+	
+	
+	
+.cont-form label, .cont-form input {
+  transition: all 0.2s;
+  touch-action: manipulation;
+}
+
+.cont-form input {
+    cursor: text;
+    height: 42px;
+    width: 100%;
+    border-radius: 2px;
+    padding: .7rem .75rem .65rem 1rem;
+    line-height: 1.5;
+    border: 1px solid #d7d7d7;
+    background: #fff;
+    font-family: 'Roboto';
+}
+.cont-form.has-error input{border-color: #D84315;
+box-shadow:none;}
+.cont-form input:focus, .cont-form input:active, .cont-form.has-error input:focus{
+  outline: 0;
+    border: 1px solid rgba(0,142,204,.6);
+	box-shadow:none;
+
+}
+
+.cont-form label {
+     letter-spacing: 0.05em;
+    font-family: 'Roboto';
+    font-size: 9px;
+    top: -9px;
+    left: 18px;
+    color: rgba(58,58,58,.7);
+    background: #FFFFFF;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 9px;
+    transform: translate(0, 2.125rem) scale(1.5);
+    position: absolute;
+    text-overflow: ellipsis;
+    transform-origin: left bottom;
+}
+.cont-form input:placeholder-shown + label {
+    cursor: text;
+    max-width: 12.66%;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translate(0, 2.125rem) scale(1.5);
+    text-transform: none;
+	
+}
+.cont-form input::-webkit-input-placeholder {
+  opacity: 0;
+  transition: inherit;
+}
+.cont-form input:focus::-webkit-input-placeholder {
+  opacity: 1;
+}
+.cont-form input:not(:placeholder-shown) + label,
+.cont-form input:focus + label {
+  transform: translate(0, 0) scale(1.2);
+  
+  cursor: pointer;
+}
+.cont-form 	button{
+		    width: 150px;
+    float: right;}
+	
+	.list-kviz-block{
+    width: 50%;
+    float: left;
+    padding: 10px;
+		}
+	.list-kviz-block .list-kviz-block-d{
+border: 2px solid #e7e7e7;
+    box-shadow: 0px 0px 17px 0px rgb(0 0 0 / 10%);
+    width: 100%;
+    float: left;
+    margin-top: 0px;
+    background: #fff;
+    font-family: 'Raleway Light';
+    color: #333333;
+    font-weight: bold;
+    text-align: left;
+    font-size: 14px;
+    /* line-height: 15px; */
+    cursor: pointer;
+    padding: 8px 10px 9px 10px;
+    border-radius: 3px;
+    position: relative;
+		}
+	.list-kviz-block .list-kviz-block-d:hover{
+		border: 2px solid #00BAF0;
+		
+		}	
+	.list-kviz-block .list-kviz-block-d .list-kviz-block-d-text{ 	
+	float: left;
+    width: 100%;     padding-right: 135px;
+	}
+	.list-kviz-block .list-kviz-block-d .list-kviz-block-d-btn{
+    width: auto;
+    position: absolute;
+    float: left;
+    text-align: center;
+    font-weight: bold;
+    font-size: 13px;
+    border: 1px solid #f00026;
+    border-radius: 3px;
+    color: #f00026;
+    padding: 0px 8px;
+    right: 14px;
+		}
+	
+	.list-kviz-block .list-kviz-block-d .list-kviz-block-d-checkbox{
+		    position: absolute;
+    right: 95px;
+		}
+		
+/*	.on-of-iformation-company .switchery {
+    width: 40px;
+    height: 20px;
+}	
+.on-of-iformation-company .switchery>small {
+    width: 20px;
+    height: 20px;
+}
+*/
+.list-kviz-block .list-kviz-block-d .list-kviz-block-d-checkbox .switchery>small {
+    display: block !important;
+}		
+
+ .list-kviz-block.list-kviz-block-add .list-kviz-block-d{
+	    background: #00BAF0;
+    color: #fff;
+	}
+
+ .list-kviz-block.list-kviz-block-add .list-kviz-block-d .list-kviz-block-d-text{
+	text-transform: uppercase;}
+
+	.list-kviz-block.list-kviz-block-add .list-kviz-block-d .list-kviz-block-d-btn-add{
+		    width: auto;
+    position: absolute;
+    float: left;
+    text-align: center;
+    font-weight: bold;
+    font-size: 13px;
+    border: 1px solid #f00026;
+    border-radius: 3px;
+    color: #f00026;
+    padding: 0px 8px;
+    right: 14px;
+		border: 2px solid #ffffff;
+    color: #ffffff;
+    font-size: 27px;
+    padding: 0px 6px;
+    line-height: 0.8;
+    margin-top: -1px;
+    right: 8px;
+		}	
+		
+.lids-neiros .h1-modal.pos-left-kviz .back-kviz{
+	width: 20px;
+    display: block;
+    position: absolute;
+    left: 9px;
+    top: 14px;
+	cursor:pointer;
+	}		
+.lids-neiros .h1-modal.pos-left-kviz{
+	
+	
+	}		
+	.lids-neiros .h1-modal.pos-left-kviz div{
+		   width: 80%;
+		   position:relative;
+		}
+		
+		
+	.lids-neiros .h1-modal.pos-left-kviz div input{
+		font-family: 'Raleway Light';
+    color: #333333;
+    font-weight: bold;
+    font-size: 17px;
+	    width: 100%;	   outline: none !important;
+			border:none !important;
+		border-bottom: 1px solid #dbdedf !important;     padding-right: 28px;
+		}	
+	.lids-neiros .h1-modal.pos-left-kviz div input:focus, .lids-neiros .h1-modal.pos-left-kviz div input:hover, .lids-neiros .h1-modal.pos-left-kviz div input:active{
+		    outline: none !important;
+			border:none !important;
+		border-bottom: 1px solid #dbdedf !important;
+		}
+	
+	.lids-neiros .h1-modal.pos-left-kviz div:before {
+    content: '';
+    position: absolute;
+    right: 0px;
+    width: 20px;
+    height: 20px;
+    background: url(/global_assets/images/icon2/pencil.png) center center no-repeat;
+}
+
+
+
+
+.slide-left {
+	-webkit-animation: slide-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}	
+@-webkit-keyframes slide-left {
+  0% {
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0;
+  }
+}
+@keyframes slide-left {
+  0% {
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+
+
+
+
+	
+	
+	

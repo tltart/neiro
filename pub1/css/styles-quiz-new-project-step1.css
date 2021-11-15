@@ -1,0 +1,207 @@
+ .panel-white-st{
+	 background:#fff;
+	 }
+	 
+ .panel-white-st .stepy-header li span {
+      color: #999;
+  }
+  
+  
+  .panel-white-st .stepy-header li.stepy-active:first-child div:after {
+    content: url(https://cloud.neiros.ru/images/smartphone.svg);
+    display: inline-block;
+    width: 26px;
+    padding-top: 5px;
+    padding-left: 2px;
+    position: relative;
+    top: 0px;
+    left: -1px;
+  }
+  
+  .panel-white-st .stepy-header li:first-child span{
+ 	color: #0098F6;
+  }
+  
+  .stepy-active span{
+	  	color: #000 !important;  
+	  }
+  
+  .stepy-header li.stepy-active~li:after{
+	  background:#eee;	  
+	  }
+  
+  
+  .panel-white-st .stepy-navigator .button-next,   .panel-white-st .stepy-navigator .button-back  {
+    width: 100px;
+    background-color: #c8cad2;
+    border-color: #c8cad2;
+	  color: #fff;
+	
+	display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 8px 16px;
+    font-size: 13px;
+    line-height: 1.5384616;
+    border-radius: 3px;
+	
+	  position: relative;
+    font-weight: 500;
+    text-transform: uppercase;
+    border-width: 0;
+    padding: 9px 17px;
+		
+  }
+
+a:disabled {
+   cursor: not-allowed !important; 
+   pointer-events: all !important;
+}
+
+    button:disabled {
+  cursor: not-allowed;
+  pointer-events: all !important;
+}
+
+   .button-valid-tel{
+    vertical-align: middle;
+    touch-action: manipulation;
+    white-space: nowrap;
+    display: inline-block;
+    text-align: center;
+    color: #fff;
+    border-radius: 4px;
+    margin-left: 10px;
+    white-space: nowrap;
+    padding: 10.5px 16px;
+    border: none;
+    background: #c8cad2;
+    outline: none;
+  
+   }
+
+    .button-valid-tel:hover{
+      color:#fff;
+    }
+  
+  @media (min-width: 768px) {
+  .panel-white-st{
+	  min-height:563px;  
+	  }
+  }
+  
+  
+ 
+ .panel-white-st .add-progect-step1-img img  {
+	 margin: 0 auto;
+    display: block;
+    max-width: 340px;
+	 }
+  
+  .panel-white-st .row-step1{
+	  margin-top:30px;
+	  }
+  
+  .add-progect-step1-datails{
+	    margin-top: 10px;
+		padding-left: 60px;
+	  }
+  
+  
+  .add-progect-step1-title h2{
+	color: #333;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 0px;
+	line-height: 1.1;
+    }
+
+.check-reg-st p{
+	color: #333;
+    font-size: 15px;
+    margin-bottom: 10px;
+	}
+
+.check-reg-st p a{
+	color:#002ef6;
+	}
+
+.check-sms-code p label{
+	font-weight:bold;
+	}
+
+	
+.switch-check {
+	display: inline-block;
+    margin-top: 35px;
+    font-size: 15px;
+	color:#002ef6;
+	}
+
+.switch-check:hover{
+    color:#3B4D82;
+}
+
+.panel-white-st .cont-form-check {
+	margin-bottom:0px;
+	width: 240px;
+    display: block;
+	}	
+ 
+ .check-reg-st{
+	 margin-top:25px;
+	 }
+ 
+ .timer-sms-send{
+	display: block;
+	position: relative;
+    top: 5px; 
+	font-size: 13px;
+	 }
+ 
+  
+ .check-sms-code {
+	 display:block;	 
+	 }
+ 
+ .change-phone-numb, .check-phone-code{
+	 display:none;	 
+	 }
+ 
+ 
+ .form-control.phone{
+  font-size: 17px;
+  color: rgba(58,58,58,.7);
+ }
+ 
+ .timerSendCode{
+  display: inline;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+  
+  
+  
+  
+  
+  
+  
+  

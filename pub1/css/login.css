@@ -1,0 +1,149 @@
+.logo-login{
+	    margin-left: -30px;
+    float: left;}
+.logo-login img{
+	width:200px;}	
+h5.content-group{
+	float: right;
+    font-size: 24px;
+    margin-top: 24px;	}	
+.heder-logo-block{padding-left: 0px;
+    padding-right: 0px;
+    margin-bottom: 18px;}	
+.login-container{background: url(/images/balloon.jpg) no-repeat 50% fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;}
+	
+	
+.login-container.login-container-night{background: url(/images/balloon-night.jpg) no-repeat 50% fixed;}	
+	
+.login-box{
+    padding-left: 0px;
+    margin-top: 60px;
+    padding-right: 0px;
+    box-shadow: 0px 3px 12px 0px rgba(50, 50, 50, 0.3);
+    /* position: relative; */
+    border-radius: 30px;	}
+.login-box-left{
+    background: url(/images/login-balloon.jpg) no-repeat top;
+    background-size: cover;
+    padding: 80px 40px;
+    min-height: 480px;
+    border-radius: 30px 0px 0px 30px;
+    width: 40%;
+	}	
+.login-container-night .login-box-left{
+	background: url(/images/login-balloon-night.jpg) no-repeat top;}		
+	
+	
+	.login-box-right{
+		border-radius: 0px 30px 30px 0px;
+		background:#FFFFFF;
+		min-height: 480px;
+		    width: 60%;
+			padding: 80px;
+		}
+	.text-h1{font-family: 'Roboto';
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 29px;
+      margin-top: 50px;}
+	
+	.text-h2{
+	font-family: 'Roboto';
+    color: #fff;
+    font-size: 13px;
+    margin-top: 15px;
+		}
+	.text-h2 a{
+		color: #fff;
+    font-weight: bold;}
+	
+	.cont-form{
+		position:relative;margin-bottom: 20px;    padding-left: 0px;
+    padding-right: 0px;}
+	
+	
+	
+.cont-form label, .cont-form input {
+  transition: all 0.2s;
+  touch-action: manipulation;
+}
+
+.cont-form input {
+  cursor: text;
+    height: 42px;
+    border-radius: 2px;
+    padding: .7rem .75rem .65rem 1rem;
+    line-height: 1.5;
+    border: 1px solid #d7d7d7;
+    background: #fff;
+	font-family: 'Roboto';
+}
+.cont-form.has-error input{border-color: #D84315;
+box-shadow:none;}
+.cont-form input:focus, .cont-form input:active, .cont-form.has-error input:focus{
+  outline: 0;
+    border: 1px solid rgba(0,142,204,.6);
+	box-shadow:none;
+
+}
+
+.cont-form label {
+  letter-spacing: 0.05em;
+  font-family: 'Roboto';
+      font-size: 9px;
+	      top: -4px;
+		left: 8px;
+color: rgba(58,58,58,.7);
+background:#FFFFFF;
+    padding-left: 5px;
+    padding-right: 5px;
+	   font-size: 9px;
+	     transform: translate(0, 2.125rem) scale(1.5);
+	       position: absolute;
+		    text-overflow: ellipsis;
+    transform-origin: left bottom;
+}
+.cont-form input:placeholder-shown + label {
+cursor: text;
+    max-width: 66.66%;
+    white-space: nowrap;
+    overflow: hidden;
+   
+    transform: translate(0, 2.125rem) scale(1.5);
+    text-transform: none;
+	
+}
+::-webkit-input-placeholder {
+  opacity: 0;
+  transition: inherit;
+}
+.cont-form input:focus::-webkit-input-placeholder {
+  opacity: 1;
+}
+.cont-form input:not(:placeholder-shown) + label,
+.cont-form input:focus + label {
+  transform: translate(0, 0) scale(1.2);
+  
+  cursor: pointer;
+}
+.cont-form 	button{
+		    width: 150px;
+    float: right;}
+	
+.content-group{    margin-top: 23px;}	
+.text-register-login{        float: left;
+    margin-top: 0px;
+    font-size: 14px;}
+.text-register-login a{    font-family: 'Roboto';
+    display: block;
+    margin-bottom: 0px;}	
+	
+.text-register-login a:hover{
+	text-decoration:underline;}	

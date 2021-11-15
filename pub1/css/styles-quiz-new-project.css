@@ -1,0 +1,690 @@
+.panel-white-st{
+    width: 1000px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 5vh;
+    border-radius: 10px;
+	margin-bottom:20px;
+	}
+	
+.panel-white-st ul{
+	border-top-right-radius: 10px;
+    border-top-left-radius: 10px;	
+		}
+	
+	
+.panel-white-st	.stepy-header{
+	background-color: #f8f8f8;
+	}
+
+	
+.panel-white-st .stepy-header li.stepy-active:after{
+	    background-color: #eee;		
+	}
+	
+.panel-white-st .stepy-header li.stepy-active~li:before {
+     background-color: #eee;	
+}
+
+
+.panel-white-st .stepy-header li.stepy-active div {
+	background-color: #f8f8f8;
+	}
+
+.panel-white-st .stepy-header li div {
+   background-color: #f8f8f8;
+}
+
+
+
+
+.panel-white-st .stepy-header li.stepy-active~li div {
+   background-color: #f8f8f8;
+}
+
+
+.stepy-header li:after, .stepy-header li:before {
+	background:#0098F6;
+	top: 38px;
+	
+}
+
+
+
+   .add-progect-step2-datails{
+	     padding-left: 40px;
+   }
+
+.add-progect-step2-title h2{
+	color:#333;
+	font-size:38px;
+	font-weight:bold;
+	margin-bottom: 0px;
+	
+}
+
+.add-progect-step2-title p{
+     color:#333;
+	font-size:15px;
+	margin-bottom:15px;
+}
+
+
+.add-progect-step2-img img{
+	max-width: 340px;
+    margin: 0 auto;
+    display: block;	
+	}
+
+.row-step2{
+	margin-top: 20px;
+	}
+
+
+
+.panel-white-st .cont-form {
+    position: relative;
+    margin-bottom: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.panel-white-st input {
+    transition: all 0.2s;
+    touch-action: manipulation;
+}
+.panel-white-st .cont-form input {
+    cursor: text;
+    height: 42px;
+    border-radius: 2px;
+    padding: .7rem .75rem .65rem 1rem;
+    line-height: 1.5;
+    border: 1px solid #d7d7d7;
+    background: #fff;
+    font-family: 'Roboto';
+}
+
+
+
+
+
+.panel-white-st .cont-form label {
+    letter-spacing: 0.05em;
+    font-family: 'Roboto';
+    font-size: 9px;
+    top: -4px;
+    left: 8px;
+    color: rgba(58,58,58,.7);
+    background: #FFFFFF;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 9px;
+    transform: translate(0, 2.125rem) scale(1.5);
+    position: absolute;
+    text-overflow: ellipsis;
+    transform-origin: left bottom;
+}
+
+
+
+.panel-white-st input:active, input:focus{
+    outline: 0 !important;
+    border: 1px solid rgba(0,142,204, .8) !important;
+	box-shadow:none !important;
+
+}
+
+
+
+
+
+
+.panel-white-st .cont-form.has-error input{border-color: #D84315;
+box-shadow:none;}
+.panel-white-st .cont-form input:focus, .cont-form input:active, .cont-form.has-error input:focus{
+  outline: 0;
+    border: 1px solid rgba(0,142,204,.6);
+	box-shadow:none;
+
+}
+
+
+
+
+.panel-white-st .cont-form label {
+  letter-spacing: 0.05em;
+  font-family: 'Roboto';
+      font-size: 9px;
+	      top: -4px;
+		left: 8px;
+color: rgba(58,58,58,.7);
+background:#FFFFFF;
+    padding-left: 5px;
+    padding-right: 5px;
+	   font-size: 9px;
+	     transform: translate(0, 2.125rem) scale(1.5);
+	       position: absolute;
+		    text-overflow: ellipsis;
+    transform-origin: left bottom;
+}
+.panel-white-st .cont-form input:placeholder-shown + label {
+cursor: text;
+    max-width: 66.66%;
+    white-space: nowrap;
+    overflow: hidden;
+   
+    transform: translate(0, 2.125rem) scale(1.5);
+    text-transform: none;
+	
+}
+.panel-white-st ::-webkit-input-placeholder {
+  opacity: 0;
+  transition: inherit;
+}
+.panel-white-st .panel-white-st .cont-form input:focus::-webkit-input-placeholder {
+  opacity: 1;
+}
+.panel-white-st .cont-form input:not(:placeholder-shown) + label,
+.panel-white-st .cont-form input:focus + label {
+  transform: translate(0, 0) scale(1.2);
+  
+  cursor: pointer;
+}
+
+
+
+
+.panel-white-st .stepy-header li div:after{
+	content:url(https://cloud.neiros.ru/images/check-i.svg);
+	display: inline-block;
+    width: 25px;
+    position: relative;
+    top: -2px;
+    left: -2px;
+	padding-left: 8px;
+    padding-top: 1px;
+	}
+
+
+.panel-white-st .stepy-header li.stepy-active div:after {
+	content:url(https://cloud.neiros.ru/images/review.svg);
+	display: inline-block;
+    width: 26px;
+    padding-top: 4px;
+    padding-left: 4px;
+	position: relative;
+    top: 0px;
+    left: 0px;
+	
+	}
+	
+.panel-white-st .stepy-header li.stepy-active:last-child div:after {
+	content:url(https://cloud.neiros.ru/images/code.svg);
+	display: inline-block;
+    width: 25px;
+    position: relative;
+    top: 3px;
+    left: 0px;
+    padding-left: 2px;
+    padding-top: 0px;
+	}
+	
+
+.panel-white-st .stepy-header li div {
+	background:#0098F6;
+    border: 2px solid #0098F6;
+}
+
+
+.panel-white-st .stepy-header li span{
+	color:#0098F6;
+	}
+
+.panel-white-st .stepy-header li:last-child span{
+	color:#999;
+	}
+
+
+.panel-white-st .stepy-header li.stepy-active span{
+	color:#000;
+	}
+
+
+.panel-white-st .btn-default {
+    color: #9ea1af;
+    background-color: #f5f5f5;
+    border-color: transparent;
+}
+
+.panel-white-st .btn-default {
+    color: #9ea1af;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.panel-white-st .btn-default {
+    color: #9ea1af;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.panel-white-st .btn-default:hover {
+    color: #333;
+    background-color: #fff;
+    border-color: transparent;
+}
+
+
+.panel-white-st .btn-default .position-left {
+    margin-right: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-copy{
+	background: #00b9ee;
+    border: 0px;
+    position: absolute;
+    right: 10px;
+    top: 15px;
+	transition: box-shadow .2s,-webkit-box-shadow .2s;
+	color:#fff;
+	cursor:pointer;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
+    border-radius: .5rem;
+    font-size: 13px;
+	line-height: 1.15;
+	outline:none !important;
+	padding: 5px 8px;
+	}
+
+
+.panel-white-st .btn-copy:focus{
+    outline: none;
+}
+
+
+.yourCodeBlock {
+	position:relative;
+	
+}
+
+.btn-copy{
+	display:none;
+}
+
+.yourCodeBlock:hover .btn-copy{ 
+	display:block;
+	}
+
+
+.javascriptCode{
+		border:none;
+	    border-top: 5px solid #00b9ee;
+		border-radius: 5px;
+		color:#fff;
+		background:#3f3f3f;
+		resize: none;
+		width: 100%;
+        min-height: 190px;
+        padding-left: 20px;	
+	}
+
+
+.panel-white-st textarea:focus, .panel-white-st textarea:active{
+	outline:none;
+	}
+	
+.add-progect-step3-title h2{
+	font-size:16px;
+	font-weight:bold;
+	color:#333;
+	}	
+
+.add-progect-step3-title p{
+	font-size:15px;
+	color:#333;
+}
+	
+.add-progect-step3-title{
+	margin-bottom:20px;
+	}
+
+
+.panel-white-st .cont-form {
+    position: relative;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
+
+
+.code-send-mail{
+	padding: 0;
+	}
+
+
+.btnEmailCodeSend:active, .btnEmailCodeSend:focus{
+	outline: none;
+	border:none;
+}
+	
+.btnEmailCodeSend{ 
+	position: absolute;
+    right: 0;
+    top: 0;
+    height: 42px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0;
+    width: 40px;
+    background: #00b9ee;
+    border: none;
+	}
+
+.btnEmailCodeSend:hover{
+	opacity:0.9;
+
+}
+
+.btnEmailCodeSend img{
+	width: 20px;
+    margin-left: -5px;
+	}
+
+	
+.cont-form-mail{
+	width: 300px;
+    padding-right: 39px;
+	}
+
+.code-instal{
+	margin-top:20px;
+	margin-bottom:20px;
+	}
+
+.label-sendMail{
+	font-size:16px;
+	color:#333;
+	font-weight:bold;
+	float: left;
+    padding-top: 9px;
+    padding-bottom: 15px;
+    margin-right: 18px;	
+	}
+
+
+.panel-white-st .cont-form-mail input:active, input:focus{
+    outline: 0 !important;
+    border: 1px solid #00b9ee !important;
+	box-shadow:none !important;
+
+}
+
+
+.code-check button:active, .code-check button:focus {
+	outline: 0 !important;
+    border: none !important;
+	box-shadow:none !important;
+	} 
+
+
+.code-check-main{
+	padding-top: 8px;
+    text-align: center;
+	}
+
+.code-check button{
+	background:transparent;
+	outline: 0 !important;
+    border: none !important;
+	box-shadow:none !important;
+	font-size:15px;
+	
+}
+
+.code-check-main button .fa-refresh{
+	color:#00b9ee;
+	margin-right: 2px;
+	
+	}
+.code-check-priloader  .fa-refresh{
+animation:spin 1s linear infinite;
+}
+
+
+
+
+@keyframes fadeinout {
+  0%,
+  100% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+.no-connection-sl{
+	display:none;
+	}
+
+.connected-correctly-sl{
+	display:none;
+	}
+
+.code-check-main label{
+    font-size: 15px;
+    font-weight: 400;
+	color:#333;
+	}
+
+
+.code-check-main label img{
+    width: 22px;
+    margin-right: 1px;
+	color:#333;
+}
+
+
+.no-connection-sl{
+	margin-right:10px;
+	}
+
+.row-step3{
+	padding-right: 15px;
+    padding-left: 15px;
+	}
+
+
+.add-progect-step2-datails{
+	 margin-top: 60px;
+	}
+
+.add-progect-step2-img img {
+    max-width: 440px;
+}
+
+.row-step2{
+	margin-top: 38px;
+	}
+
+.stepy-basic .row{
+	min-height: 460px;
+	}
+
+
+
+
+.panel-white-st .stepy-navigator .button-next i{
+	display:none;
+	} 
+
+.panel-white-st .stepy-navigator .button-next{
+	width:100px;
+	background-color: #c8cad2;
+    border-color: #c8cad2;
+	} 
+
+ .panel-white.panel-white-st{
+	 box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+	 }
+
+
+
+
+
+@media (max-width: 1400px) {
+	.stepy-header li {
+    padding: 10px 0;
+	}
+
+.add-progect-step2-img img {
+    max-width: 340px;
+
+}
+
+.stepy-basic .row {
+    min-height: 360px;
+}
+
+
+.stepy-header li:after, .stepy-header li:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 28px;
+}
+
+.add-progect-step3-title h2 {
+	margin:0px;
+	
+	}
+.add-progect-step3-title {
+    margin-bottom: 0px;
+}
+
+.code-instal {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.add-progect-step3-title p{
+	margin-bottom:3px;
+	
+	}
+ 
+ .row-step2 {
+    margin-top: 57px;
+}
+ 
+ 
+   
+
+}
+
+
+
+.panel-white-st .stepy-header li.stepy-active span {
+	color:#000;	
+	}
+
+	
+/*.panel-white-st{
+	display:none;
+}
+*/
+
+@media (max-width: 1000px) {
+.panel-white-st {
+    width: auto;
+}
+
+.stepy-header li:first-child:before, .stepy-header li:last-child:after{
+	display:none;	
+	}
+	
+.stepy-header li.stepy-active:after, .stepy-header li.stepy-active~li:after, .stepy-header li.stepy-active~li:before{
+	display:none;	
+	}	
+
+.stepy-basic .row {
+    min-height: auto;
+}	
+
+.add-progect-step2-datails {
+    margin-top: 10px;
+	
+}
+
+.row-step2 {
+    margin-top: 10px;
+}
+
+
+.row-step3 {
+margin-top: 12px;
+}
+
+
+
+.add-progect-step2-img{
+	display:none;	
+	}
+
+}
+
+
+@media (max-width: 475px) {
+
+.add-progect-step2-title h2 {
+    font-size: 28px;
+	margin-top: 0;
+
+}
+
+.stepy-header li {
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+}
+
+
+.stepy-basic legend{
+	opacity:0;
+	}
+
+
+
+
+
+
+
+
+
+

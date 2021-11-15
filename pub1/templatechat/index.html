@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Chat</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/templatechat/main.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+
+<body>
+    <div class="layout js-layout">
+        <div class="wrapper">
+            <aside class="users">
+                <header class="users__header">
+                    <button class="btn btn--setting js-button--setting">
+                    <i class="icon-cog"></i>
+                </button>
+                    <input type="text" class="form-field" placeholder="Поиск">
+                </header>
+                <div class="users__body">
+                    <div class="users__holder">
+                        <div class="user-item js-user-item js-button-users-close">
+                            <div class="user-item__wrap">
+                                <div class="user-item__img" data-messages="5">
+                                    <img src="/images/pfotografy.jpg" class="avatar js-button-info-open" alt="">
+                                </div>
+                                <div>
+                                    <div class="user-item__name">
+                                        контакт №1
+                                    </div>
+                                    <div class="user-item__social telegram-color">
+                                        <i class="icon-paper-plane"></i> телеграмм
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="user-item__date">
+                                15.11.2018
+                            </div>
+                        </div>
+                        <div class="user-item js-user-item js-button-users-close user-item--active">
+                            <div class="user-item__wrap">
+                                <div class="user-item__img" data-messages="3">
+                                    <img src="/images/zodiak.jpg" class="avatar  js-button-info-open" alt="">
+                                </div>
+                                <div>
+                                    <div class="user-item__name">
+                                        Ирина Иванова
+                                    </div>
+                                    <div class="user-item__social odnoklassniki-color">
+                                        <i class="icon-odnoklassniki"></i> odnoklassniki
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="user-item__date">
+                                15.11.2018
+                            </div>
+                        </div>
+                        <div class="user-item js-user-item js-button-users-close">
+                            <div class="user-item__wrap">
+                                <div class="user-item__img" data-messages="7">
+                                    <img src="/images/pfotografy-none.jpg" class="avatar  js-button-info-open" alt="">
+                                </div>
+                                <div>
+                                    <div class="user-item__name">
+                                        контакт №2
+                                    </div>
+                                    <div class="user-item__social whatsapp-color">
+                                        <i class="icon-whatsapp"></i> whatsApp
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="user-item__date">
+                                15.11.2018
+                            </div>
+                        </div>
+                        <div class="user-item js-user-item js-button-users-close">
+                            <div class="user-item__wrap">
+                                <div class="user-item__img" data-messages="1">
+                                    <img src="/images/pfotografy.jpg" class="avatar  js-button-info-open" alt="">
+                                </div>
+                                <div>
+                                    <div class="user-item__name">
+                                        контакт №3
+                                    </div>
+                                    <div class="user-item__social viber-color">
+                                        <i class="icon-phone"></i> viber
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="user-item__date">
+                                15.11.2018
+                            </div>
+                        </div>
+                        <div class="user-item js-user-item js-button-users-close">
+                            <div class="user-item__wrap">
+                                <div class="user-item__img" data-messages="">
+                                    <img src="/images/pfotografy-none.jpg" class="avatar  js-button-info-open" alt="">
+                                </div>
+                                <div>
+                                    <div class="user-item__name">
+                                        контакт №4
+                                    </div>
+                                    <div class="user-item__social instagram-color">
+                                        <i class="icon-instagram"></i> instagram
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="user-item__date">
+                                15.11.2018
+                            </div>
+                        </div>
+                        <div class="user-item js-user-item js-button-users-close">
+                            <div class="user-item__wrap">
+                                <div class="user-item__img" data-messages="">
+                                    <img src="/images/man.jpg" class="avatar  js-button-info-open" alt="">
+                                </div>
+                                <div>
+                                    <div class="user-item__name">
+                                        контакт №5
+                                    </div>
+                                    <div class="user-item__social facebook-color">
+                                        <i class="icon-facebook"></i> facebook
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="user-item__date">
+                                15.11.2018
+                            </div>
+                        </div>
+                        <div class="user-item js-user-item js-button-users-close">
+                            <div class="user-item__wrap">
+                                <div class="user-item__img" data-messages="">
+                                    <img src="/images/koala.jpg" class="avatar  js-button-info-open" alt="">
+                                </div>
+                                <div>
+                                    <div class="user-item__name">
+                                        контакт №8
+                                    </div>
+                                    <div class="user-item__social chat-color">
+                                        <i class="icon-comment-empty"></i> чат
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="user-item__date">
+                                15.11.2018
+                            </div>
+                        </div>
+                        <div class="user-item js-user-item js-button-users-close">
+                            <div class="user-item__wrap">
+                                <div class="user-item__img" data-messages="">
+                                    <img src="/images/man.jpg" class="avatar  js-button-info-open" alt="">
+                                </div>
+                                <div>
+                                    <div class="user-item__name">
+                                        контакт №6
+                                    </div>
+                                    <div class="user-item__social facebook-color">
+                                        <i class="icon-vkontakte"></i> vkontakte
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="user-item__date">
+                                15.11.2018
+                            </div>
+                        </div>
+                        <div class="user-item js-user-item js-button-users-close">
+                            <div class="user-item__wrap">
+                                <div class="user-item__img" data-messages="">
+                                    <img src="/images/pfotografy-none.jpg" class="avatar  js-button-info-open" alt="">
+                                </div>
+                                <div>
+                                    <div class="user-item__name">
+                                        контакт №9
+                                    </div>
+                                    <div class="user-item__social mail-color">
+                                        <i class="icon-mail"></i> gmail
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="user-item__date">
+                                15.11.2018
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="users__footer">
+                    <nav class="mobile-nav js-mobile-nav">
+                        <button class="btn mobile-nav__button js-button-users-close">
+                        <i class="icon-chat"></i>
+                        <span class="d-block">Чаты</span>
+                    </button>
+                        <button class="btn mobile-nav__button js-button--setting"><i class="icon-cog"></i>
+                        <span class="d-block">Настройки</span>
+                    </button>
+                    </nav>
+                </div>
+            </aside>
+
+            <!--------chat--------- -->
+            <main class="chat">
+
+                <header class="chat__header">
+                    <button class="btn chat-users-button js-button-users-open">
+                    <i class="icon-left-open-big"></i>
+                    чаты
+                </button>
+                    <div>
+                        <p>Клиент №6</p>
+                        <p class="chat__header__date text-muted">в сети: <span class="text-number">11.11.2018</span></p>
+                    </div>
+
+                    <div>
+                        <button class="btn chat__header__search-button js-chat-search__button-toggle">
+                        <i class="icon-search"></i>
+                    </button>
+
+                        <button class="btn js-button-info-open chat__header__resize-button">
+
+                    </button>
+
+                        <img src="/images/pfotografy.jpg" class="chat__header__avatar avatar js-button-info-open" alt="">
+                    </div>
+
+                    <div class="chat-search js-chat-search">
+                        <form class="chat-search__form">
+                            <input type="text" class="form-field form-field--no-bg" placeholder="Искать сообщение в текущей беседе">
+                            <button class="btn chat-search__submit">Найти</button>
+                        </form>
+                        <button class="chat-search__close btn js-chat-search__button-close"><i class="icon-cancel"></i>
+                    </button>
+                    </div>
+                </header>
+
+                <div class="chat__body js-chat__body">
+                    <div class="messages">
+
+                        <div class="messages__row messages__row--from">
+                            <div class="message message_from" data-time="12.03">
+                                Привет! Как дела? Помнишь, что сегодня хотели погулять? Я уже собираюсь. а ты? Привет! Как дела? Помнишь, что сегодня хотели
+                                погулять? Я уже собираюсь. а ты?
+                            </div>
+                        </div>
+
+                        <div class="messages__row messages__row--to">
+                            <div class="message message_to" data-time="12.03">
+                                Привет! сегодня плохо себя чувствую, горло болит
+                            </div>
+                        </div>
+
+                        <div class="messages__row messages__row--from">
+                            <div class="message message_from" data-time="12.03">
+                                Привет! Как дела? Помнишь, что сегодня хотели погулять? Я уже собираюсь. а ты? Привет! Как дела? Помнишь, что сегодня хотели
+                                погулять? Я уже собираюсь. а ты?
+                            </div>
+                        </div>
+
+                        <div class="messages__row messages__row--to">
+                            <div class="message message_to" data-time="12.03">
+                                Привет! сегодня плохо себя чувствую, горло болит
+                            </div>
+                        </div>
+                        <div class="messages__row messages__row--from">
+                            <div class="message message_from" data-time="12.03">
+                                Привет! Как дела? Помнишь, что сегодня хотели погулять? Я уже собираюсь. а ты? Привет! Как дела? Помнишь, что сегодня хотели
+                                погулять? Я уже собираюсь. а ты?
+                            </div>
+                        </div>
+
+                        <div class="messages__row messages__row--to">
+                            <div class="message message_to" data-time="12.03">
+                                Привет! сегодня плохо себя чувствую, горло болит
+                            </div>
+                        </div>
+                        <div class="messages__row messages__row--from">
+                            <div class="message message_from" data-time="12.03">
+                                Привет! Как дела? Помнишь, что сегодня хотели погулять? Я уже собираюсь. а ты? Привет! Как дела? Помнишь, что сегодня хотели
+                                погулять? Я уже собираюсь. а ты?
+                            </div>
+                        </div>
+
+                        <div class="diliver diliver--blue"><span>Непрочитанные сообщения</span></div>
+
+                        <div class="messages__row messages__row--to">
+                            <div class="message message_to" data-time="12.03">
+                                Привет! сегодня плохо себя чувствую, горло болит
+                            </div>
+                        </div>
+
+                        <div class="diliver diliver--gray"><span>Сегодня</span></div>
+
+
+                        <div class="messages__row messages__row--from">
+                            <div class="message message_from" data-time="12.03">
+                                Привет! Как дела? Помнишь, что сегодня хотели погулять? Я уже собираюсь. а ты? Привет! Как дела? Помнишь, что сегодня хотели
+                                погулять? Я уже собираюсь. а ты?
+                            </div>
+                        </div>
+
+                        <div class="messages__row messages__row--to">
+                            <div class="message message_to" data-time="12.03">
+                                Привет! сегодня плохо себя чувствую, горло болит
+                            </div>
+                        </div>
+                        <div class="messages__row messages__row--to">
+                            <div class="message message_to" data-time="12.13">
+                                Привет! сегодня плохо себя чувствую, горло болит
+                            </div>
+                        </div>
+
+                        <div class="messages__row messages__row--from">
+                            <div class="message message_from" data-time="12.03">
+                                Привет! Как дела? Помнишь, что сегодня хотели погулять?
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <footer class="chat__footer">
+
+                    <div class="chat__footer__notification">
+                        <i class="writting-state writting-state--active">
+                        <i class="icon-pencil"></i> Печатает...
+                        </i>
+                    </div>
+
+                    <div class="quick-answers js-quick-answers">
+                        <button type="button" class="btn dropdown__button quick-answers__button js-quick-answers-button">
+                        Быстрые ответы
+                    </button>
+                        <div class="quick-answers__wrapper">
+                            <div class="quick-answers__holder">
+                                <button class="btn quick-answers__item">Спасибо! Мы уточним все детали</button>
+                                <button class="btn quick-answers__item">Ваша заявка уже обрабатывается. ..</button>
+                                <button class="btn text-link">+ Добавить</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form action="" class="form-send">
+                        <div class="form-send__wrap">
+                            <button class="btn form-send__smile" type="button"><i class="icon-smile"></i></button>
+                            <input type="text" class="form-send__input form-field" name="message" placeholder="Введите сообщение" autocomplete="off">
+
+                            <label class="btn form-send__attach">
+                            <i class="icon-attach"></i>
+                            <input type="file" class="sr-only">
+                        </label>
+                        </div>
+                        <button class="form-send__submit" type="submit"><i class="icon-forward"></i></button>
+                    </form>
+                </footer>
+
+            </main>
+
+            <!--------info------------>
+            <aside class="info">
+                <header class="info__header">
+                    <div class="">Информация пользователя</div>
+                    <button class="btn btn--close js-button-info-close"><i class="icon-cancel"></i></button>
+                </header>
+
+                <div class="info__body">
+
+                    <div class="info__intro">
+                        <img src="/images/pfotografy.jpg" class="avatar" alt="">
+                        <div class="info__intro__customer">
+                            <div class="info__intro__name">Клиент №1</div>
+                            <div class="info__intro__date text-number text-muted">в сети 11.10.2018 <span>13.50</span></div>
+                        </div>
+                    </div>
+                    <div class="info__phone">
+                        <div>
+                            <i class="icon-info-circled"></i>
+                        </div>
+                        <div>
+                            <a href="tel:70999898999" class="text-number reset-link">+7 099 989 89 99</a>
+                            <span class="d-block text-muted info__phone__mobile">Мобильный телефон</span>
+                        </div>
+                    </div>
+
+                    <div class="info__holder">
+                        <div class="info__holder__title text-muted">Основная информация</div>
+                        <div class="info__row">
+                            <div>Дата рождения</div>
+                            <div class="text-number">03.12.1992</div>
+                        </div>
+                        <div class="info__row">
+                            <div>Возраст</div>
+                            <div class="text-number">30лет</div>
+                        </div>
+                        <div class="info__row">
+                            <div>Пол</div>
+                            <div>мужской</div>
+                        </div>
+                        <div class="info__row">
+                            <div>Город</div>
+                            <div>Москва</div>
+                        </div>
+
+                        <div class="info__holder__title text-muted">Аналитика</div>
+                        <div class="info__row">
+                            <div>ключевой запрос</div>
+                            <div>'курсы английского'</div>
+                        </div>
+                        <div class="info__row">
+                            <div>метки объявления</div>
+                            <div>gt173t</div>
+                        </div>
+                        <div class="info__row">
+                            <div>просм.страницы</div>
+                            <a href="#" class="text-link">весь список</a>
+                        </div>
+                        <div class="info__row">
+                            <div>пришел из</div>
+                            <div>яндекс директ</div>
+                        </div>
+
+
+                        <div class="info__row">
+                            <div class="facebook-color">
+                                <i class="icon-vkontakte"></i> vkontakte
+                            </div>
+                            <a href="mailto:test@test.com" class="text-link">test@test.com</a>
+                        </div>
+
+                        <div class="info__last-visit text-number">
+                            <span class="text-muted">Был на сайте: </span> 3 мин назад
+                        </div>
+                    </div>
+
+                    <div class="info__footer">
+
+                        <div class="additional-info js-additional-info">
+                            <form class="additional-info__form">
+
+                                <div class="dropdown js-dropdown">
+                                    <button type="button" class="dropdown__button js-dropdown__button">Дополнительная
+                                    информация
+                                </button>
+                                    <input type="hidden" name="info" value="null" class="js-dropdown__input">
+                                </div>
+
+                                <textarea class="additional-info__form__textarea"></textarea>
+                                <div class="text-center">
+                                    <button class="btn btn--blue js-additional-form-button" type="submit">Сохранить</button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="text-center">
+                            <button class="btn btn--big js-additional-form">Добавить информацию</button>
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </aside>
+        </div>
+
+        <!--------settings------------>
+        <aside class="settings js-settings">
+            <header class="settings__header">
+                <span>Астор</span>
+                <button class="btn btn--close btn--rounded js-button--close-setting">
+                <i class="icon-cancel"></i>
+            </button>
+            </header>
+            <div class="settings__body">
+                <div class="settings__body__inner">
+                    <label class="checkbox">
+                    <span>Включить звуковые оповещения</span>
+                    <input type="checkbox" checked="true" class="sr-only">
+                    <i></i>
+                </label>
+                    <label class="checkbox">
+                    <span>Включить автозапуск программы</span>
+                    <input type="checkbox" class="sr-only">
+                    <i></i>
+                </label>
+                    <label class="checkbox">
+                    <span>Включить Push уведомления</span>
+                    <input type="checkbox" class="sr-only">
+                    <i></i>
+                </label>
+                </div>
+            </div>
+            <footer class="settings__footer">
+                Neiros
+            </footer>
+        </aside>
+
+        <!--------push message------------>
+        <div class="push-message js-push-message">
+            <div class="push-message__img">
+                <img src="/images/man.jpg" alt="" class="avatar">
+            </div>
+            <div class="push-message__wrap">
+                <div class="push-message__wrap__name">
+                    <i class="icon-vkontakte vk-color"></i> Семен Пушкин
+                </div>
+                <div class="push-message__wrap__content text-muted">
+                    Спасибо большое! Вы мне очень помогли.
+                </div>
+            </div>
+            <i class="icon-cancel push-message__close js-push-message__close"></i>
+        </div>
+
+        <!--mobile navigation-->
+        <!--<div class="layout__mobile-nav">-->
+        <!---->
+        <!--</div>-->
+    </div>
+
+    <script src="/templatechat/main.js"></script>
+</body>
+
+</html>
